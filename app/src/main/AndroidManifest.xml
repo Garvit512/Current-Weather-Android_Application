@@ -10,7 +10,7 @@
 
 
     <application
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/current_weather_icon_square"
         android:label="@string/app_name"
         android:theme="@style/AppTheme"
         android:debuggable="true"
@@ -44,6 +44,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
 
             </intent-filter>
+
+
         </activity>
 
     </application>
