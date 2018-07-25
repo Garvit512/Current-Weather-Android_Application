@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    android:orientation="vertical"
+    tools:background="@android:color/holo_blue_dark">
+
+    <LinearLayout
+
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="apps.garvitcompany.com.currentweather.MainActivity">
+
+
+        <EditText
+            android:id="@+id/cityinput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="135dp"
+            android:freezesText="true"
+            android:hint="ENTER CITY"
+            android:fontFamily="casual"
+            android:singleLine="true"
+            android:layout_marginTop="14dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="#ece8e8"
+            android:textCursorDrawable="@null"
+            android:background="@null"
+            android:gravity="start|center"
+             />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2.5dp"
+            android:layout_marginTop="29dp"
+            android:background="#c0c0c0"/>
+
+
+        <TextView
+
+            android:id="@+id/temperature"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:freezesText="true"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="50sp" />
+
+
+        <TextView
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:fontFamily="casual"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:gravity="center"
+            android:layout_weight="0.09"
+            android:textAlignment="center" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2.5dp"
+            android:layout_marginTop="46dp"
+            android:background="#c0c0c0"/>
+
+
+        <TextView
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/currentdetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:fontFamily="casual"
+            android:layout_marginStart="10dp"
+            android:text="Current details" />
+
+        <TextView
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:fontFamily="casual"
+            android:id="@+id/visibility"
+            android:paddingTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Visibility:"
+            android:freezesText="true"
+            android:layout_marginStart="10dp"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:fontFamily="casual"
+            android:id="@+id/pressure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Pressure:"
+            android:freezesText="true"
+            android:textAllCaps="false"
+            android:layout_marginStart="10dp"
+            android:textAlignment="viewStart"
+            android:layout_marginEnd="17dp" />
+
+
+        <TextView
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:id="@+id/wind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Wind:"
+            android:fontFamily="casual"
+            android:freezesText="true"
+            android:layout_marginStart="10dp"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:id="@+id/humidity"
+            android:fontFamily="casual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Humidity:"
+            android:freezesText="true"
+            android:layout_marginStart="10dp"
+            android:textAlignment="textEnd" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2.5dp"
+            android:layout_marginTop="15dp"
+            android:background="#c0c0c0"/>
+
+
+        <Button
+            android:textColor="#000"
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="search"
+            android:fontFamily="casual"
+            android:layout_marginStart="135dp"
+            android:gravity="start|center"
+            android:textAlignment="center"
+            />
+
+
+
+
+    </LinearLayout>
+</ScrollView>
